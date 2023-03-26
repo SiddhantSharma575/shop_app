@@ -1,0 +1,23 @@
+.error__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error__container > h3 {
+    font-size: 30px;
+}
+
+.carts__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+.amount__cont {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}

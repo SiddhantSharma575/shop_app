@@ -1,0 +1,43 @@
+.search__conntainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.search__conntainer > input {
+    padding: 1rem;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.search__conntainer > button {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+.search__conntainer > button:hover {
+    background-color: #ccc;
+}
+
+.loading__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading__container > h1 {
+    margin-top: 3rem;
+}
+
+
+.all__products__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}

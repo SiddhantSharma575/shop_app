@@ -1,0 +1,46 @@
+.single__cart__container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.single__cart__container >  .left {
+    width : 30%;
+}
+
+.single__cart__container > .right {
+}
+
+.single__cart__container > .right > h5  { 
+    font-size: 20px;
+    margin-bottom: 1rem;   
+}
+
+.single__cart__container > .right > p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.single__cart__container > .right > .quant__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.single__cart__container > .right > .quant__container > span {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.single__cart__container > .right > .quant__container > button { 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50px;   
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+
+.single__cart__container > .right > .quant__container > button:hover {
+    background-color: #ccc;
+}
